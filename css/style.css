@@ -25,15 +25,22 @@
 
 .box-azzurro {
     width: 60%;
-    height: 400px;
+    
     
 }
 
 .box-rosa {
     width: 40%;
-    height: 400px;
+    align-self: center;
+    
+    
     
 }
+
+.title-item1 {
+    margin-bottom: 20px;
+}
+
 
 .box-verde {
     width: 1300px;
@@ -53,6 +60,11 @@ ul {
     gap: 30px;
 }
 
+h2 {
+    color: black;
+    font-size: 40px;
+}
+
 
 /*
 **************************************************
@@ -69,9 +81,24 @@ ul {
 
 .title-box-magenta {
     justify-content: center;
+    color: white;
+    padding-bottom: 20px;
 }
 
+.content-box-magenta {
+    color: white;
+    margin-bottom: 20px;
+}
 
+.background-button {
+    padding: 10px;
+    margin: 30px;
+    border-radius: 100px;
+}
+
+.content {
+    line-height: 2;
+}
 
 
 .root {
@@ -86,9 +113,10 @@ ul {
 
 
 
+
+
 a {
     text-decoration: none;
-    color: white;
 }
 
 body {
@@ -114,6 +142,14 @@ body {
 .content-header {
     justify-content: space-around;
     align-items: center;
+}
+
+.color-white {
+    color: white;
+}
+
+.color-black {
+    color: black;
 }
 
 
@@ -195,6 +231,12 @@ footer {
     display: flex;
 }
 
+.justify-center {
+    
+}
+
+.align-items-center {
+}
 
 
 /* ALTEZZE  */
