@@ -97,11 +97,6 @@ h2 {
 }
 
 
-.root {
-    flex-direction: column;
-    flex-shrink: 1;
-}
-
 
 
 
@@ -121,13 +116,16 @@ body {
 
 
 .box-salmon {
-    width: 40%;
-    height: 80%;
+    width: 30%;
 }
 
 .box-cyan {
-    height: 80%;
-    width: 315px;
+    
+    width: calc(100% / 4);
+}
+
+.boxes {
+    width: 70%;
 }
 
 .container-box-ciane {
@@ -148,6 +146,13 @@ body {
     color: black;
 }
 
+.color-blue {
+    color: rgb(46, 92, 243);
+}
+
+
+
+
 .content-box-rosa {
     justify-content: center;
     align-items: center;
@@ -159,6 +164,9 @@ body {
     margin-bottom: 20px;
 }
 
+.logo2 {
+
+}
 
 
 
@@ -198,19 +206,29 @@ header {
 footer {
     border-top: 2px white solid;
     border-bottom: 2px white solid;
-    justify-content: center;
-    align-items: center;
+
     
 
 }
 
-.fake-link {
+/* .fake-link {
 
     padding: 0 120px;
     max-height: 20px;
     justify-content: space-between;
+} */
+
+.logo2-button {
+    justify-content: space-around;
+    align-items: center;
+}
+.bottone {
+    margin-top: 20px;
 }
 
+.logo2 {
+    margin-top: 20px;
+}
 
 
 
@@ -242,8 +260,30 @@ footer {
 
 
 .align-items-center {
+    align-items: center;
 }
 
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.fa-brands {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.padding-top-30 {
+    padding-top: 30px;
+}
 
 /* ALTEZZE  */
 

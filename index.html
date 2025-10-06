@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>discord-layout</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -134,9 +137,11 @@
             <!-- SEZIONE SCATOLA VERDE -->
             <section class="bg-gray height-900px flex-container flex-column">
                 <div>
-                    <h2 class="title-item1">Tecnologia affidabile per tenersi in contatto</h2>
-                    <p class="content">Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stenza. Fai ciao in video, guarda<br>
-                        gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.
+                    <h2 class="title-item1 padding-top-30">Tecnologia affidabile per tenersi in contatto</h2>
+                    <p class="content">Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa
+                        stenza. Fai ciao in video, guarda<br>
+                        gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione
+                        schermo.
                     </p>
                 </div>
 
@@ -151,15 +156,67 @@
 
 
             <!-- SEZIONE SCATOLA SALMONE-CIANO -->
-            <section class="flex-container bg-black height-600px">
-                <div class="box-salmon bg-dark-salmon dashed-border"></div>
+            <section class="flex-container bg-black height-600px ">
+                <div class="box-salmon">
+                    <h2 class="color-blue title-item1">Il tuo posto per<br>
+                        parlare
+                    </h2>
+                    <span class="color-white">Italiano</span>
+                    <div class="flex-container">
+                        <span class="color-white"><i class="fa-brands fa-twitter"></i></span>
+                        <span class="color-white"><i class="fa-brands fa-instagram"></i></span>
+                        <span class="color-white"><i class="fa-brands fa-facebook"></i></span>
+                        <span class="color-white"><i class="fa-brands fa-youtube"></i></span>
+                    </div>
+                </div>
+                <div class="boxes flex-container ">
+                    <div class="box-cyan color-white">
+                        <ul class="content">
+                            <span class="color-blue">Prodotto</span>
+                            <li><a class="color-white" href="">Scarica</a></li>
+                            <li><a class="color-white" href="">Scarica</a></li>
+                            <li><a class="color-white" href="">Scarica</a></li>
+                            <li><a class="color-white" href="">Scarica</a></li>
+                            <li><a class="color-white" href="">Scarica</a></li>
+                        </ul>
+                    </div>
+                    <div class="box-cyan color-white">
+                        <ul class="content">
+                            <span class="color-blue">Compagnia</span>
+                            <li><a class="color-white" href="">Chi siamo</a></li>
+                            <li><a class="color-white" href="">Chi siamo</a></li>
+                            <li><a class="color-white" href="">Chi siamo</a></li>
+                            <li><a class="color-white" href="">Chi siamo</a></li>
+                            <li><a class="color-white" href="">Chi siamo</a></li>
+                        </ul>
+                    </div>
+                    <div class="box-cyan color-white">
+                        <ul class="content">
+                            <span class="color-blue">Risorse</span>
+                            <li><a class="color-white" href="">Scarica</a></li>
+                            <li><a class="color-white" href="">Scarica</a></li>
+                            <li><a class="color-white" href="">Scarica</a></li>
+                            <li><a class="color-white" href="">Scarica</a></li>
+                            <li><a class="color-white" href="">Scarica</a></li>
+                            <li><a class="color-white" href="">Scarica</a></li>
+                            <li><a class="color-white" href="">Scarica</a></li>
+                            <li><a class="color-white" href="">Scarica</a></li>
+                            <li><a class="color-white" href="">Scarica</a></li>
+                            <li><a class="color-white" href="">Scarica</a></li>
+                        </ul>
+                    </div>
+                    <div class="box-cyan color-white">
+                        <ul class="content">
+                            <span class="color-blue">Norme</span>
+                            <li><a class="color-white" href="">Nitro</a></li>
+                            <li><a class="color-white" href="">Nitro</a></li>
+                            <li><a class="color-white" href="">Nitro</a></li>
+                            <li><a class="color-white" href="">Nitro</a></li>
+                            <li><a class="color-white" href="">Nitro</a></li>
+                        </ul>
+                    </div>
+                </div>
 
-                <!-- <div class="conteiner-box-ciane flex-container"> -->
-                <div class="box-cyan bg-dark-cyan dashed-border"></div>
-                <div class="box-cyan bg-dark-cyan dashed-border"></div>
-                <div class="box-cyan bg-dark-cyan dashed-border"></div>
-                <div class="box-cyan bg-dark-cyan dashed-border"></div>
-                <!-- </div> -->
             </section>
             <!-- FINE SEZIONE SALMONE-CIANO -->
 
@@ -168,16 +225,17 @@
     </main>
 
 
-    <footer class="height-60px bg-black flex-container">
+    <footer class="height-80px bg-black">
+        <div class="flex-container logo2-button">
+            <span class=" logo2">
+                <img src="./img/logo.svg" alt="">
+            </span>
+            <span class="fake-link"></span>
 
-        <span class="bg-cyan dashed-border logo2">
-            LOGO
-        </span>
-        <span class="fake-link"></span>
-
-        <span class="bg-cyan dashed-border bottone">
-            BOTTONE
-        </span>
+            <span class="bottone">
+                <a class="color-white background-button bg-flower-blue">Registrati</a>
+            </span>
+        </div>
 
     </footer>
 </body>
