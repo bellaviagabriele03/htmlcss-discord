@@ -32,9 +32,6 @@
 .box-rosa {
     width: 40%;
     align-self: center;
-    
-    
-    
 }
 
 .title-item1 {
@@ -152,6 +149,11 @@ body {
     color: black;
 }
 
+.content-box-rosa {
+    justify-content: center;
+    align-items: center;
+    
+}
 
 
 
