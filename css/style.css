@@ -31,7 +31,6 @@
 
 .box-rosa {
     width: 40%;
-    align-self: center;
 }
 
 .title-item1 {
@@ -152,9 +151,13 @@ body {
 .content-box-rosa {
     justify-content: center;
     align-items: center;
-    
+
 }
 
+.ask {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
 
 
 
@@ -234,8 +237,9 @@ footer {
 }
 
 .justify-center {
-    
-}
+    justify-content: center;
+} 
+
 
 .align-items-center {
 }
